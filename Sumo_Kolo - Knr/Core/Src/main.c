@@ -50,6 +50,15 @@ static void MX_TIM1_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 bool clockWisedirection = true;
+//liczba dokonanych obrotów
+int spinCounterRIGTH = 0;
+int spinCounterLEFT = 0;
+
+//fukcja zwracająca liczbe obrotow od ostatniego wywolania
+int totalSpins(int motor_id)
+{
+	//code
+}
 //to wiadomo chyba co robi
 void enable_motor(int motor_id)
 {
